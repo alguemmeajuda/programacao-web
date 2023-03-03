@@ -2,10 +2,11 @@
  <form> 
    <fieldset>
     <legend> Dados Pessoais </legend>
-    <label> Nome:</label>
-     <input type="text" id="nome" name="nome><br>                                     
+    <label for="Nome">Nome:</label> 
+     <input type="text" id="nome" name="nome"><br>                                    
     
-     <label>Endereço:</label>
+     
+     <label for="Endereço">Endereço:</label>
      <input type="text" id="endereço" name="endereço"><br>
     
      <label> Cidade:</label>                                                    
@@ -40,25 +41,37 @@
       <option value="valor25">São Paulo</option>
       <option value="valor26">Sergipe</option>
       <option value="valor27">Tocantins</option>
-   
+   </select>
    </fieldset>
-                          
+            
+   <br>
    <fieldset>
     <legend> Preencha os dados abaixo: </legend>
    
-     <label> Qual seu nível de conhecimento em Programação: </label>     
+     <label> Qual seu nível de conhecimento em Programação: </label>
       <input type="radio" id="Nenhum" name="Nenhum">
+      <label for="Nenhum">Nenhum</label>
       <input type="radio" id="Baixo" name="Baixo">
+      <label for="Baixo">Baixo</label>
       <input type="radio" id="Intermediário" name="Intermediário">
-      <input type="radio" id="Avançado" name="Avançado">   
-   
-     <label> Selecione as linguagens que você mais se interessa em aprender:</label>
+      <label for="Intermediário">Intermediário</label>
+      <input type="radio" id="Avançado" name="Avançado"> 
+      <label for="Avançado">Avançado</label> <br>
+      <br>
+     
+      <label> Selecione as linguagens que você mais se interessa em aprender:</label><br>
       <input type="checkbox" id="C/C++" name="C/C++">
+      <label for="C/C++">C/C++</label>
       <input type="checkbox" id="PHP" name="PHP">
-      <input type="checkbox" id="JAVA" name="JAVA"> 
+      <label for="PHP">PHP</label>
+      <input type="checkbox" id="JAVA" name="JAVA">
+      <label for="JAVA">JAVA</label> 
       <input type="checkbox" id="Python" name="Python">
+      <label for="Python">Python</label>
       <input type="checkbox" id="Swift" name="Swift">
+      <label for="Swift">Swift</label>
       <input type="checkbox" id="C#" name="C#">
+      <label for="C#">C#</label>
    
    </fieldset>
  </form> 
